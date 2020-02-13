@@ -3,7 +3,8 @@ import './Pictures.css'
 
 class Pictures extends React.Component {
 	render () {
-		return <div><h2>Shared Symptoms</h2></div>;
+		 let title = "Members who shared Symptoms";
+		 return <div><h2>{title}</h2></div>;
 	}
 }
 
